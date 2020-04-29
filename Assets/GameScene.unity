@@ -1282,7 +1282,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 963933953
+  randomSeed: 411985901
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4628,18 +4628,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!65 &1238332019
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1238332011}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 15, y: 20, z: 1}
-  m_Center: {x: 0, y: 0.8, z: -2.5}
 --- !u!1 &1281857601
 GameObject:
   m_ObjectHideFlags: 0
