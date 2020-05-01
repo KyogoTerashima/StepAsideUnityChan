@@ -73,13 +73,13 @@ public class ItemGenerator : MonoBehaviour
     void Update()
     {
 
-        if (this.unitychan.transform.position.z - this.unitychanPos.z >= 15)
-        {
-            this.unitychanPos = this.unitychan.transform.position;
+            if (this.unitychan.transform.position.z - this.unitychanPos.z >= 15 && this.unitychanPos.z < this.goalPos-45)
+            {
+                this.unitychanPos = this.unitychan.transform.position;
 
 
-            //どのアイテムを出すのかをランダムに設定
             int num = Random.Range(1, 11);
+            //どのアイテムを出すのかをランダムに設定
             if (num <= 2)
             {
                 //コーンをX軸方向に一直線に配置
